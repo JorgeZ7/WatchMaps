@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+
+img {
+	text-align: center;
+}
+
+:root {
+	--f7-bars-link-color:#fff; /*color íconos navbar*/
+    --f7-navbar-bg-color: transparent; /*navbar*/
+    --f7-navbar-shadow-image: transparent;
+   	--f7-navbar-text-color:#fff;
+}
+
+
+.top-panel{
+	color: #350905;
+	font-size: 27px;
+	font-weight: 500;
+	padding: 40px 0px 30px 30px;
+	text-align: left;
+}
+
+
+.panel .list{
+	margin-top: 0;
+}
+
+
+.panel .list ul::before,
+.panel .list ul::after {
+	background-color: #350905;
+}
+
+
+.panel .list {
+	color: #350905;
+	font-size: 14px;
+}
+
+
+.panel .list span {
+	color: #350905;
+}
+
+
+.page {
+	background-image: linear-gradient(#350905, #CE1D11);
+}
+
+
+.poster {
+	border-radius: 5px;
+	color: #fff;
+	height: 150px;
+}
+
+
+.marvel-studios {
+	background-image: url("../img/Marvel_Studios_logo.png");
+	background-size: contain;
+}
+
+
+.poster h3 {
+	font-size: 17px;
+	margin: 0px 0px;
+    position: relative;
+    top: 115px;
+    left: 20px;
+}
+
+
+
+/* MARVEL CHRON */
+
+.page-marvel.page {
+	--f7-navbar-bg-color: transparent; /*navbar*/
+	--f7-navbar-text-color:#fff;
+	--f7-bars-bg-color:;/*toolbar*/
+	--f7-list-bg-color: transparent;
+	--f7-navbar-shadow-image: transparent;
+}
+
+
+.marvel-banner {
+	position: relative;
+	bottom: 56px;
+}
+
+
+.marvel-content {
+	position: relative;
+	bottom: 80px;
+}
+
+
+div.row1 {
+	background-color: rgba(0, 0, 0, 0.75);
+	height: 130px;
+}
+
+
+div.row1 div.item-inner {
+	width: 130px;
+}
+
+
+.logo {
+	padding: 14px 5px 14px 12px;
+	height: 130px;
+	width: 217px;
+}
+
+
+div.movie div.item-subtitle {
+	margin-top: 30px;
+}
+
+
+div.show div.item-title {
+	margin-top: 13px;
+}
+
+
+.row1,
+div.row1 .item-subtitle,
+div.row1 .item-text,
+div.item-inner .item-title-row {
+	background-color: transparent;
+	color: white;
+}
+
+
+div .item-content .item-link .row1 {
+	background-color: transparent;
+}
+
+
+div.marvel-list {
+	margin: 0px 0px;
+}
+
+
+.simlt {
+  	position: absolute;
+   	width: 8px;
+  	z-index: 10000;
+}
+
+
+#phase-1 {	
+	background-image: url(../img/Avengers1.png);
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	padding: 0px 0px;
+}
+
+
+.imgCA1 {
+	padding-left: 17px;
+}
+
+
+.text-oneshot {
+	--f7-list-item-subtitle-font-size: 12px;
+    --f7-list-item-text-font-size: 12px;
+}
+
+
+.simlt-1 {
+  	background-color: rgba(163, 201, 217, 0.92);
+  	height: 650px;
+}
+
+
+#phase-2 {	
+	background-image: url(../img/Avengers2.png);
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	padding: 0px 0px;
+}
+
+
+.imgAOS {
+	position: relative;
+	right: 50px;
+}
+
+
+.simlt-2 {
+  	background-color: rgba(217, 41, 41, 0.92);
+}
+
+
+.simlt-2-1 {
+	border-bottom: rgba(53, 9, 5, 0.92) solid 10px;
+	height: 390px;
+}
+
+
+.simlt-2-2 {
+	height: 390px;
+}
+
+
+#phase-3 {	
+	background-image: url(../img/Avengers3.png);
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	padding: 0px 0px;
+}
+
+
+.simlt-3 {
+  	background-color: rgba(88, 84, 191, 0.92);
+}
+
+
+.simlt-3-1 {
+	height: 390px;
+}
+
+
+.simlt-3-2 {
+	height: 260px;
+}
+
+
+.simlt-3-3 {
+	height: 520px;
+}
+
+
+.logo-175 {
+	padding-left: 24px;
+	padding-right: 17px;
+}
+
+
+.logo-150 {
+	padding: 14px 30px 14px 37px;
+}
+
+
+div.row1-alt {
+	background-color: rgba(20, 21, 42, 0.75);
+}
+
+
+div.row1-alt .item-subtitle,
+div.row1-alt .item-text {
+	color: white;
+}
+
+
+#phase-4 {	
+	background-image: url(../img/Avengers4.png);
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	padding: 0px 0px;
+}
+
+
+.imgWV {
+	position: relative;
+	right: 5px;
+}
