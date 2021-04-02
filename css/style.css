@@ -27,6 +27,11 @@ img {
 }
 
 
+section.panel.panel-left.panel-cover.panel-in {
+	background-color: rgba(53, 9, 5, 0.90);
+}
+
+
 .panel .list{
 	margin-top: 0;
 }
@@ -67,12 +72,11 @@ img {
 }
 
 
-.poster h3 {
-	font-size: 17px;
+span.name-universe {
 	margin: 0px 0px;
     position: relative;
-    top: 115px;
-    left: 20px;
+    top: 50px;
+    left: -38px;
 }
 
 
@@ -91,6 +95,7 @@ img {
 .marvel-banner {
 	position: relative;
 	bottom: 56px;
+	width: 100%;
 }
 
 
@@ -100,26 +105,95 @@ img {
 }
 
 
+div.marvel-list {
+	margin: 0px 0px;
+}
+
+
+.accordion-item-content {
+	background-color: rgba(255, 255, 255, 0.75);
+}
+
+
+.button-watch {
+	height: 36px;
+	width: 125px;
+	margin-left: 43px;
+}
+
+
+button a {
+	color: white;
+	margin-bottom: 18px;
+}
+
+
+.checkbox input {
+ 	display: none;
+}
+
+
+.checkbox {
+ 	position: relative;
+ 	display: inline-block;
+  	width: 80px;
+  	height: 36px;
+	margin-right: 43px;
+}
+
+
+.slider {
+ 	position: absolute;
+ 	top: 0; bottom: 0;
+ 	left: 0; right: 0;
+ 	border: 2px solid #b92121;
+ 	background-color: #bc2612;
+}
+
+
+.slider::before {
+ 	content: "";
+ 	width: 50%;
+ 	height: 100%;
+ 	position: absolute;
+ 	top: 0; left: 0;
+ 	background-color: #eee;
+}
+
+
+.slider, .slider::before {
+	transition: all 0.2s;
+}
+
+
+.checkbox input:checked + .slider {
+ 	border: 2px solid #258805;
+ 	background-color: #8cbc13;
+}
+
+
+.checkbox input:checked + .slider::before {
+	left: 50%;
+}
+
+
+a.row1,
 div.row1 {
 	background-color: rgba(0, 0, 0, 0.75);
 	height: 130px;
 }
 
 
+.logo {
+	padding: 14px 0px 14px 12px;
+	height: 130px;
+	width: 267px;
+}
+
+
+a.row1 div.item-inner
 div.row1 div.item-inner {
 	width: 130px;
-}
-
-
-.logo {
-	padding: 14px 5px 14px 12px;
-	height: 130px;
-	width: 217px;
-}
-
-
-div.movie div.item-subtitle {
-	margin-top: 30px;
 }
 
 
@@ -129,6 +203,9 @@ div.show div.item-title {
 
 
 .row1,
+a.row1 .item-subtitle,
+a.row1 .item-text,
+a.item-inner .item-title-row,
 div.row1 .item-subtitle,
 div.row1 .item-text,
 div.item-inner .item-title-row {
@@ -137,12 +214,177 @@ div.item-inner .item-title-row {
 }
 
 
+a .item-content .item-link .row1,
 div .item-content .item-link .row1 {
 	background-color: transparent;
 }
 
 
-div.marvel-list {
+a.movie,
+div.movie {
+	height: 150px;
+}
+
+
+a.movie .logo,
+div.movie .logo {
+	height: 150px;
+	width: 267px;
+	padding-left: 10px;
+}
+
+
+a.movie .logo img,
+div.movie .logo img {
+	width: 250px;
+}
+
+
+a.movie div.item-inner,
+div.movie div.item-inner {
+	position: relative;
+	right: 7px;
+}
+
+
+a.movie div.item-subtitle,
+a.movie div.item-text,
+div.movie div.item-subtitle,
+div.movie div.item-text {
+	font-size: 13px;
+}
+
+
+a.movie div.item-subtitle,
+div.movie div.item-subtitle {
+	margin-top: 40px;
+}
+
+
+a.movie-av,
+div.movie-av {
+	height: 175px;
+}
+
+
+a.movie-av .logo,
+div.movie-av .logo {
+	height: 175px;
+	width: 267px;
+}
+
+
+a.movie-av .logo img,
+div.movie-av .logo img {
+	width: 275px;
+}
+
+
+a.movie-av div.item-inner,
+div.movie-av div.item-inner {
+	margin-left: 0px;
+	width: 130px;
+}
+
+
+a.movie-av div.item-subtitle,
+div.movie-av div.item-subtitle {
+	margin-top: 53px;
+}
+
+
+a.show,
+div.show {
+	height: 110px;
+}
+
+
+a.show .logo,
+div.show .logo {
+	height: 110px;
+	width: 230px;
+	padding: 14px 0px 14px 22px;
+}
+
+
+a.show .logo img,
+div.show .logo img {
+	width: 186px;
+}
+
+
+a.show div.item-inner,
+div.show div.item-inner {
+	margin-left: 0px;
+	width: 130px;
+}
+
+
+a.show div.item-inner div.item-title-row,
+div.show div.item-inner div.item-title-row {
+	padding: 0px 0px;
+}
+
+
+a.show div.item-inner div.item-title,
+div.show div.item-inner div.item-title {
+	font-size: 14px;
+}
+
+
+a.show div.item-inner div.item-subtitle,
+a.show div.item-inner div.item-text,
+div.show div.item-inner div.item-subtitle,
+div.show div.item-inner div.item-text {
+	font-size: 12px;
+}
+
+
+a.short,
+div.short {
+	height: 90px;
+}
+
+
+a.short .logo,
+div.short .logo {
+	padding-left: 30px;
+	height: 90px;
+	width: 196px;
+}
+
+
+a.short .logo img,
+div.short .logo img {
+	width: 166px;
+}
+
+
+a.short div.item-inner,
+div.short div.item-inner {
+	margin: 0px 0px 0px 16px;
+	width: 150px;
+}
+
+
+a.short div.item-subtitle,
+div.short div.item-subtitle {
+	margin-top: 13px;
+}
+
+
+a.short div.item-text,
+div.short div.item-text {
+	font-size: 12px;
+}
+
+
+#funny-hammer {
+	padding: 4px 16px 0px 0px;
+}
+
+#funny-hammer-sub {
+	font-size: 11px;
 	margin: 0px 0px;
 }
 
@@ -156,7 +398,7 @@ div.marvel-list {
 
 #phase-1 {	
 	background-image: url(../img/Avengers1.png);
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-position: 50% 50%;
 	padding: 0px 0px;
 }
@@ -167,29 +409,27 @@ div.marvel-list {
 }
 
 
-.text-oneshot {
-	--f7-list-item-subtitle-font-size: 12px;
-    --f7-list-item-text-font-size: 12px;
-}
-
-
 .simlt-1 {
   	background-color: rgba(163, 201, 217, 0.92);
-  	height: 650px;
+  	height: 630px;
 }
 
 
 #phase-2 {	
 	background-image: url(../img/Avengers2.png);
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-position: 50% 50%;
 	padding: 0px 0px;
 }
 
 
 .imgAOS {
-	position: relative;
-	right: 50px;
+
+}
+
+
+.imgDD {
+	width: 180px;
 }
 
 
@@ -211,7 +451,7 @@ div.marvel-list {
 
 #phase-3 {	
 	background-image: url(../img/Avengers3.png);
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-position: 50% 50%;
 	padding: 0px 0px;
 }
@@ -227,6 +467,11 @@ div.marvel-list {
 }
 
 
+#imgGG2 {
+	width: 225px;
+}
+
+
 .simlt-3-2 {
 	height: 260px;
 }
@@ -234,6 +479,31 @@ div.marvel-list {
 
 .simlt-3-3 {
 	height: 520px;
+}
+
+
+#imgBP {
+	width: 225px;
+}
+
+
+#imgINH {
+	width: 180px;
+}
+
+
+.imgPUN {
+	width: 180px;
+}
+
+
+.imgCnD {
+	width: 150px;
+}
+
+
+#imgAM2 {
+	width: 225px;
 }
 
 
@@ -248,11 +518,14 @@ div.marvel-list {
 }
 
 
+a.row1-alt,
 div.row1-alt {
 	background-color: rgba(20, 21, 42, 0.75);
 }
 
 
+a.row1-alt .item-subtitle,
+a.row1-alt .item-text,
 div.row1-alt .item-subtitle,
 div.row1-alt .item-text {
 	color: white;
@@ -261,7 +534,7 @@ div.row1-alt .item-text {
 
 #phase-4 {	
 	background-image: url(../img/Avengers4.png);
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-position: 50% 50%;
 	padding: 0px 0px;
 }
@@ -270,4 +543,9 @@ div.row1-alt .item-text {
 .imgWV {
 	position: relative;
 	right: 5px;
+}
+
+
+#imgFWS {
+	width: 150px;
 }
