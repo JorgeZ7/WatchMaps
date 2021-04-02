@@ -13,8 +13,9 @@
       		</div>
     	</nav>
 
-		<img src="https://experienceperception.com/images/marvellogolight04.jpg?crc=4111550077" width="375" class="marvel-banner">
+		<img data-src="https://experienceperception.com/images/marvellogolight04.jpg?crc=4111550077" width="375" class="marvel-banner lazy lazy-fade-in">
 
+        <form class="form-store-data" id="my-form">
 
         <div class="toolbar tabbar toolbar-bottom marvel-content">
             <div class="toolbar-inner">
@@ -30,14 +31,12 @@
             
             <div class="page-content tab tab-active" id="phase-1">
                 <div class="phase-1">
-                    <div class="list media-list marvel-list">
+                    <div class="list media-list accordion-list marvel-list">
                         <ul>
-                            <li>
-                                <div class="item-content item-link row1 movie">
+                            <li class="accordion-item">
+                                <a class="item-content item-link row1 movie" href="#">
                                     <div class="item-media logo imgCA1">
-                                        <a href="https://www.disneyplus.com/movies/marvel-studios-captain-america-the-first-avenger/6xvB6xZ4r95O" target="_blank">
-                                            <img src="img/CA1.png" width="195">
-                                        </a>
+                                        <img data-src="img/CA1.png" width="195" class="lazy lazy-fade-in">
                                     </div>
                                     <div class="item-inner">
                                         <div class="item-title-row">
@@ -47,6 +46,17 @@
                                         <div class="item-subtitle">Movie</div>
                                         <div class="item-text"><em>(2011)</em></div>
                                     </div>
+                                </a>
+                                <div class="accordion-item-content">
+                                    <p class="row">
+                                        <button class="col-35 button button-large button-raised button-fill button-watch">
+                                            <a href="https://www.disneyplus.com/movies/marvel-studios-captain-america-the-first-avenger/6xvB6xZ4r95O" target="_blank"><span class="material-icons">play_arrow</span></a>
+                                        </button>
+                                        <label class="checkbox col-35">
+                                            <input type="checkbox" id="cToggle"/>
+                                            <span class="slider"></span>
+                                        </label>
+                                    </p>
                                 </div>
                             </li>
 
@@ -54,7 +64,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/series/agent-carter/3rh3uclvsNsT" target="_blank">
-                                            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/083bbf10-4b8c-474e-8b2b-bc4169faf93d/d8cn5jg-30b8c613-b60c-46c3-8d28-03c3186ffc37.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMDgzYmJmMTAtNGI4Yy00NzRlLThiMmItYmM0MTY5ZmFmOTNkXC9kOGNuNWpnLTMwYjhjNjEzLWI2MGMtNDZjMy04ZDI4LTAzYzMxODZmZmMzNy5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.xkQ3d5-x-b3zSVA-mxzXpqRgON3W_znolICt_Z1oTJM" width="200"/>
+                                            <img data-src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/083bbf10-4b8c-474e-8b2b-bc4169faf93d/d8cn5jg-30b8c613-b60c-46c3-8d28-03c3186ffc37.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMDgzYmJmMTAtNGI4Yy00NzRlLThiMmItYmM0MTY5ZmFmOTNkXC9kOGNuNWpnLTMwYjhjNjEzLWI2MGMtNDZjMy04ZDI4LTAzYzMxODZmZmMzNy5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.xkQ3d5-x-b3zSVA-mxzXpqRgON3W_znolICt_Z1oTJM" width="200" class="lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -72,7 +82,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/series/agent-carter/3rh3uclvsNsT" target="_blank">
-                                            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/083bbf10-4b8c-474e-8b2b-bc4169faf93d/d8cn5jg-30b8c613-b60c-46c3-8d28-03c3186ffc37.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMDgzYmJmMTAtNGI4Yy00NzRlLThiMmItYmM0MTY5ZmFmOTNkXC9kOGNuNWpnLTMwYjhjNjEzLWI2MGMtNDZjMy04ZDI4LTAzYzMxODZmZmMzNy5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.xkQ3d5-x-b3zSVA-mxzXpqRgON3W_znolICt_Z1oTJM" width="200"/>
+                                            <img data-src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/083bbf10-4b8c-474e-8b2b-bc4169faf93d/d8cn5jg-30b8c613-b60c-46c3-8d28-03c3186ffc37.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMDgzYmJmMTAtNGI4Yy00NzRlLThiMmItYmM0MTY5ZmFmOTNkXC9kOGNuNWpnLTMwYjhjNjEzLWI2MGMtNDZjMy04ZDI4LTAzYzMxODZmZmMzNy5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.xkQ3d5-x-b3zSVA-mxzXpqRgON3W_znolICt_Z1oTJM" width="200" class="lazy lazy-fade-in"data-/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -90,7 +100,7 @@
                                 <div class="item-content item-link row1 movie">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/movies/marvel-studios-captain-marvel/38xJGlLAQy9a" target="_blank">
-                                            <img src="img/CM.png" width="200">
+                                            <img data-src="img/CM.png" width="200" class="lazy lazy-fade-in">
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -108,7 +118,7 @@
                                 <div class="item-content item-link row1 movie">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/movies/marvel-studios-iron-man/6aM2a8mZATiu" target="_blank">
-                                            <img src="img/IM1.png" width="200">
+                                            <img data-src="img/IM1.png" width="200" class="lazy lazy-fade-in">
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -128,7 +138,7 @@
                                 <div class="item-content item-link row1 movie">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/movies/marvel-studios-iron-man-2/lXjCr9QmGGQJ" target="_blank">
-                                            <img src="img/IM2.png" width="200">
+                                            <img data-src="img/IM2.png" width="200" class="lazy lazy-fade-in">
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -146,7 +156,7 @@
                                 <div class="item-content item-link row1 movie">
                                     <div class="item-media logo">
                                         <a href="https://www.netflix.com/title/70087537" target="_blank">
-                                            <img src="img/TIH.png" width="200">
+                                            <img data-src="img/TIH.png" width="200" class="lazy lazy-fade-in">
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -161,10 +171,10 @@
                             </li>
 
                             <li>
-                                <div class="item-content item-link row1 movie">
+                                <div class="item-content item-link row1 short">
                                     <div class="item-media logo">
                                         <a href="https://vimeo.com/140278844" target="_blank">
-											<img src="img/oneshot-logo.jpg" height="56" width="200" class="one-shot-logo"/>
+											<img data-src="img/oneshot-logo.jpg" height="56" width="200" class="one-shot-logo lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -172,26 +182,26 @@
                                             <div class="item-title"></div>
                                             <div class="item-after"></div>
                                         </div>
-                                        <div class="item-subtitle text-oneshot">"The Consultant"</div>
-                                        <div class="item-text text-oneshot"><em>(2011)</em></div>
+                                        <div class="item-subtitle">"The Consultant"</div>
+                                        <div class="item-text"><em>(2011)</em></div>
                                     </div>
                                 </div>
                             </li>
 
                             <li>
-                                <div class="item-content item-link row1 movie">
+                                <div class="item-content item-link row1 short">
                                     <div class="item-media logo">
                                         <a href="https://www.youtube.com/watch?v=oAE0gbp0c5E&ab_channel=JoBloSuperheroes" target="_blank">
-											<img src="img/oneshot-logo.jpg" height="56" width="200" class="one-shot-logo"/>
+											<img data-src="img/oneshot-logo.jpg" height="56" width="200" class="one-shot-logo lazy lazy-fade-in"/>
                                         </a>
                                     </div>
-                                    <div class="item-inner">
+                                    <div class="item-inner" id="funny-hammer">
                                         <div class="item-title-row">
                                             <div class="item-title"></div>
                                             <div class="item-after"></div>
                                         </div>
-                                        <div class="item-subtitle text-oneshot">"A Funny Thing Happened on the Way to Thor's Hammer"</div>
-                                        <div class="item-text text-oneshot"><em>(2011)</em></div>
+                                        <div class="item-subtitle" id="funny-hammer-sub">"A Funny Thing<br> Happened on the <br>Way to Thor's<br> Hammer"</div>
+                                        <div class="item-text"><em>(2011)</em></div>
                                     </div>
                                 </div>
                             </li>
@@ -200,7 +210,7 @@
                                 <div class="item-content item-link row1 movie">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/movies/marvel-studios-thor/1p4vdKzTuhzr" target="_blank">
-                                            <img src="img/THO1.png" width="200">
+                                            <img data-src="img/THO1.png" width="200" class="lazy lazy-fade-in">
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -215,10 +225,10 @@
                             </li>
 
                             <li>
-                                <div class="item-content item-link row1 movie">
+                                <div class="item-content item-link row1 movie-av">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/movies/marvel-studios-the-avengers/2h6PcHFDbsPy" target="_blank">
-                                            <img src="img/AV1.png" width="200">
+                                            <img data-src="img/AV1.png" width="200" class="lazy lazy-fade-in">
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -226,12 +236,10 @@
                                             <div class="item-title"></div>
                                             <div class="item-after"></div>
                                         </div>
-                                        <div class="item-subtitle">Movie</div>
-                                        <div class="item-text"><em>(2012)</em></div>
+                                        <div class="item-subtitle">Movie - <em>(2012)</em></div>
                                     </div>
                                 </div>
                             </li>
-
 
                         </ul>
                     </div>
@@ -241,13 +249,14 @@
 
             <div class="page-content tab" id="phase-2">
                 <div class="phase-2">
-                    <div class="list media-list marvel-list">
+                    <div class="list media-list accordion-list marvel-list">
                         <ul>
-                            <li>
-                                <div class="item-content item-link row1 movie">
+
+                            <li class="accordion-item">
+                                <div class="item-content item-link row1 short">
                                     <div class="item-media logo">
                                         <a href="https://drive.google.com/file/d/1_z3dnx-CKBlWzztkhhzNHv1r-VcMDDCQ/view" target="_blank">
-                                            <img src="img/oneshot-logo.jpg" height="56" width="200" class="one-shot-logo"/>
+                                            <img data-src="img/oneshot-logo.jpg" height="56" width="200" class="one-shot-logo lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -255,8 +264,8 @@
                                             <div class="item-title"></div>
                                             <div class="item-after"></div>
                                         </div>
-                                        <div class="item-subtitle text-oneshot">"Item 47"</div>
-                                        <div class="item-text text-oneshot"><em>(2012)</em></div>
+                                        <div class="item-subtitle">"Item 47"</div>
+                                        <div class="item-text"><em>(2012)</em></div>
                                     </div>
                                 </div>
                             </li>
@@ -265,7 +274,7 @@
                                 <div class="item-content item-link row1 movie">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/movies/marvel-studios-iron-man-3/3s4Ihq7P2c6e" target="_blank">
-                                            <img src="img/IM3.png" width="200">
+                                            <img data-src="img/IM3.png" width="200" class="lazy lazy-fade-in">
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -281,10 +290,10 @@
 
                             
                             <li>
-                                <div class="item-content item-link row1 movie">
+                                <div class="item-content item-link row1 short">
                                     <div class="item-media logo">
                                         <a href="https://drive.google.com/file/d/13WlUZo1Ogf-Wg2xjP6RsM_AqSCRiwl4P/view" target="_blank">
-                                            <img src="img/oneshot-logo.jpg" height="56" width="200" class="one-shot-logo"/>
+                                            <img data-src="img/oneshot-logo.jpg" height="56" width="200" class="one-shot-logo lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -292,8 +301,8 @@
                                             <div class="item-title"></div>
                                             <div class="item-after"></div>
                                         </div>
-                                        <div class="item-subtitle text-oneshot">"All Hail the King"</div>
-                                        <div class="item-text text-oneshot"><em>(2014)</em></div>
+                                        <div class="item-subtitle">"All Hail the King"</div>
+                                        <div class="item-text"><em>(2014)</em></div>
                                     </div>
                                 </div>
                             </li>
@@ -302,7 +311,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/series/agents-of-shield/2UT4VQrwpVgi" target="_blank">
-                                            <img src="img/AOS.png" width="300" class="imgAOS"/>
+                                            <img data-src="img/AOS.png" width="300" class="imgAOS lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -320,7 +329,7 @@
                                 <div class="item-content item-link row1 movie">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/movies/marvel-studios-thor-the-dark-world/ZHk7aM5xTbW7" target="_blank">
-                                            <img src="img/THO2.png" width="200">
+                                            <img data-src="img/THO2.png" width="200" class="lazy lazy-fade-in">
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -338,7 +347,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/series/agents-of-shield/2UT4VQrwpVgi" target="_blank">
-                                            <img src="img/AOS.png" width="300" class="imgAOS"/>
+                                            <img data-src="img/AOS.png" width="300" class="imgAOS lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -356,7 +365,7 @@
                                 <div class="item-content item-link row1 movie">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/movies/marvel-studios-captain-america-the-winter-soldier/TVme5whcowSy" target="_blank">
-                                            <img src="img/CA2.png" width="200">
+                                            <img data-src="img/CA2.png" width="200" class="lazy lazy-fade-in">
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -376,7 +385,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/series/agents-of-shield/2UT4VQrwpVgi" target="_blank">
-                                            <img src="img/AOS.png" width="300" class="imgAOS"/>
+                                            <img data-src="img/AOS.png" width="300" class="imgAOS lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -394,7 +403,7 @@
                                 <div class="item-content item-link row1 movie">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/movies/marvel-studios-guardians-of-the-galaxy/1S4WM9h3KRR6" target="_blank">
-                                            <img src="img/GG1.png" width="200">
+                                            <img data-src="img/GG1.png" width="200" class="lazy lazy-fade-in">
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -412,7 +421,7 @@
                                 <div class="item-content item-link row1 movie">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/movies/marvel-studios-guardians-of-the-galaxy-vol-2/ZdRX4mMbp1gM" target="_blank">
-                                            <img src="img/GG2.png" width="200">
+                                            <img data-src="img/GG2.png" width="200" class="lazy lazy-fade-in" id="imgGG2">
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -432,7 +441,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.netflix.com/title/80018294" target="_blank">
-                                            <img src="img/DD.png" width="200"/>
+                                            <img data-src="img/DD.png" width="200" class="lazy lazy-fade-in imgDD"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -450,7 +459,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/series/agents-of-shield/2UT4VQrwpVgi" target="_blank">
-                                            <img src="img/AOS.png" width="300" class="imgAOS"/>
+                                            <img data-src="img/AOS.png" width="300" class="imgAOS lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -468,7 +477,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.netflix.com/title/80018294" target="_blank">
-                                            <img src="img/JJ.png" width="200"/>
+                                            <img data-src="img/JJ.png" width="200" class="lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -483,10 +492,10 @@
                             </li>
 
                             <li>
-                                <div class="item-content item-link row1 movie">
+                                <div class="item-content item-link row1 movie-av">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/movies/marvel-studios-avengers-age-of-ultron/76IUxY0rNHzt" target="_blank">
-                                            <img src="img/AV2.png" width="200">
+                                            <img data-src="img/AV2.png" width="200" class="lazy lazy-fade-in">
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -500,7 +509,6 @@
                                 </div>
                             </li>
 
-
                         </ul>
                     </div>
                 </div>
@@ -511,11 +519,12 @@
                 <div class="phase-3">
                     <div class="list media-list marvel-list">
                         <ul>
+
                             <li>
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/series/agents-of-shield/2UT4VQrwpVgi" target="_blank">
-                                            <img src="img/AOS.png" width="300" class="imgAOS"/>
+                                            <img data-src="img/AOS.png" width="300" class="imgAOS lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -533,7 +542,7 @@
                                 <div class="item-content item-link row1 movie">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/movies/marvel-studios-ant-man/5c92KVf1zgUX" target="_blank">
-                                            <img src="img/AM1.png" width="200">
+                                            <img data-src="img/AM1.png" width="200" class="lazy lazy-fade-in">
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -551,7 +560,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.netflix.com/title/80018294" target="_blank">
-                                            <img src="img/DD.png" width="200"/>
+                                            <img data-src="img/DD.png" width="200" class="lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -571,7 +580,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.netflix.com/title/80002537" target="_blank">
-                                            <img src="img/LC.png" width="200" class="imgLC"/>
+                                            <img data-src="img/LC.png" width="200" class="imgLC lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -589,7 +598,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.netflix.com/title/80018294" target="_blank">
-                                            <img src="img/DD.png" width="200"/>
+                                            <img data-src="img/DD.png" width="200" class="lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -607,7 +616,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.netflix.com/title/80002537" target="_blank">
-                                            <img src="img/LC.png" width="200" class="imgLC"/>
+                                            <img data-src="img/LC.png" width="200" class="imgLC lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -625,7 +634,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.netflix.com/title/80018294" target="_blank">
-                                            <img src="img/DD.png" width="200"/>
+                                            <img data-src="img/DD.png" width="200" class="lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -645,7 +654,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.netflix.com/title/80002537" target="_blank">
-                                            <img src="img/LC.png" width="200" class="imgLC"/>
+                                            <img data-src="img/LC.png" width="200" class="imgLC lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -663,7 +672,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.netflix.com/title/80018294" target="_blank">
-                                            <img src="img/DD.png" width="200"/>
+                                            <img data-src="img/DD.png" width="200" class="lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -683,7 +692,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.netflix.com/title/80002537" target="_blank">
-                                            <img src="img/LC.png" width="200" class="imgLC"/>
+                                            <img data-src="img/LC.png" width="200" class="imgLC lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -701,7 +710,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/series/agents-of-shield/2UT4VQrwpVgi" target="_blank">
-                                            <img src="img/AOS.png" width="300" class="imgAOS"/>
+                                            <img data-src="img/AOS.png" width="300" class="imgAOS lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -719,7 +728,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.netflix.com/title/80002612" target="_blank">
-                                            <img src="img/IF.png" width="200"/>
+                                            <img data-src="img/IF.png" width="200" class="lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -739,7 +748,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.netflix.com/title/80002566" target="_blank">
-                                            <img src="img/DEF.png" width="200"/>
+                                            <img data-src="img/DEF.png" width="200" class="lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -757,7 +766,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/series/agents-of-shield/2UT4VQrwpVgi" target="_blank">
-                                            <img src="img/AOS.png" width="300" class="imgAOS"/>
+                                            <img data-src="img/AOS.png" width="300" class="imgAOS lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -775,7 +784,7 @@
                                 <div class="item-content item-link row1 movie">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/movies/marvel-studios-captain-america-civil-war/4ovfyKnnIBCg" target="_blank">
-                                            <img src="img/CA3.png" width="200">
+                                            <img data-src="img/CA3.png" width="200" class="lazy lazy-fade-in">
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -795,7 +804,7 @@
                                 <div class="item-content item-link row1 movie">
                                     <div class="item-media logo">
                                         <a href="https://www.netflix.com/title/80166369" target="_blank">
-                                            <img src="img/SM1.png" width="200">
+                                            <img data-src="img/SM1.png" width="200" class="lazy lazy-fade-in">
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -813,7 +822,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/series/agents-of-shield/2UT4VQrwpVgi" target="_blank">
-                                            <img src="img/AOS.png" width="300" class="imgAOS"/>
+                                            <img data-src="img/AOS.png" width="300" class="imgAOS lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -831,7 +840,7 @@
                                 <div class="item-content item-link row1 movie">
                                     <div class="item-media logo logo-175">
                                         <a href="https://www.disneyplus.com/movies/marvel-studios-black-panther/1GuXuYPj99Ke" target="_blank">
-                                            <img src="img/BP.png" width="175">
+                                            <img data-src="img/BP.png" width="175" class="lazy lazy-fade-in" id="imgBP">
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -849,7 +858,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/series/inhumans/6VZXWp9jaYsT" target="_blank">
-                                            <img src="img/INH.png" width="200"/>
+                                            <img data-src="img/INH.png" width="200" class="lazy lazy-fade-in" id="imgINH"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -867,7 +876,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo logo-175">
                                         <a href="https://www.netflix.com/title/80117498" target="_blank">
-                                            <img src="img/PUN.png" width="175"/>
+                                            <img data-src="img/PUN.png" width="175" class="lazy lazy-fade-in imgPUN"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -885,7 +894,7 @@
                                 <div class="item-content item-link row1 movie">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/movies/marvel-studios-doctor-strange/4GgMJ1aHKHA2" target="_blank">
-                                            <img src="img/DS1.png" width="200">
+                                            <img data-src="img/DS1.png" width="200" class="lazy lazy-fade-in">
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -903,7 +912,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo logo-150">
                                         <a href="https://europixhd.pro/watch-online-tvshow/cloak-and-dagger-online/watch-cloak-and-dagger-free-online-streaming-hd" target="_blank">
-                                            <img src="img/C&D.png" width="150"/>
+                                            <img data-src="img/C&D.png" width="150" class="lazy lazy-fade-in imgCnD"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -921,7 +930,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/series/agents-of-shield/2UT4VQrwpVgi" target="_blank">
-                                            <img src="img/AOS.png" width="300" class="imgAOS"/>
+                                            <img data-src="img/AOS.png" width="300" class="imgAOS lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -936,10 +945,10 @@
                             </li>
 
                             <li>
-                                <div class="item-content item-link row1 show">
+                                <div class="item-content item-link row1 short">
                                     <div class="item-media logo">
                                         <a href="https://www.youtube.com/playlist?list=PLUIpjZlCZ5FSA15z2a5O4hIuDUdXh9XbO" target="_blank">
-                                            <img src="img/AOSS.png" width="200"/>
+                                            <img data-src="img/AOSS.png" width="200" class="lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -957,7 +966,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/series/agents-of-shield/2UT4VQrwpVgi" target="_blank">
-                                            <img src="img/AOS.png" width="300" class="imgAOS"/>
+                                            <img data-src="img/AOS.png" width="300" class="imgAOS lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -975,7 +984,7 @@
                                 <div class="item-content item-link row1 movie">
                                     <div class="item-media logo">
                                         <a href="#" target="_blank">
-                                            <img src="img/BW.png" width="200">
+                                            <img data-src="img/BW.png" width="200" class="lazy lazy-fade-in">
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -995,7 +1004,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.netflix.com/title/80018294" target="_blank">
-                                            <img src="img/JJ.png" width="200"/>
+                                            <img data-src="img/JJ.png" width="200" class="lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -1013,7 +1022,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/series/agents-of-shield/2UT4VQrwpVgi" target="_blank">
-                                            <img src="img/AOS.png" width="300" class="imgAOS"/>
+                                            <img data-src="img/AOS.png" width="300" class="imgAOS lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -1031,7 +1040,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.netflix.com/title/80002537" target="_blank">
-                                            <img src="img/LC.png" width="200" class="imgLC"/>
+                                            <img data-src="img/LC.png" width="200" class="imgLC lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -1051,7 +1060,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.netflix.com/title/80002612" target="_blank">
-                                            <img src="img/IF.png" width="200"/>
+                                            <img data-src="img/IF.png" width="200" class="lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -1069,7 +1078,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo logo-150">
                                         <a href="https://europixhd.pro/watch-online-tvshow/cloak-and-dagger-online/watch-cloak-and-dagger-free-online-streaming-hd" target="_blank">
-                                            <img src="img/C&D.png" width="150"/>
+                                            <img data-src="img/C&D.png" width="150" class="lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -1087,7 +1096,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.netflix.com/title/80018294" target="_blank">
-                                            <img src="img/DD.png" width="200"/>
+                                            <img data-src="img/DD.png" width="200" class="lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -1105,7 +1114,7 @@
                                 <div class="item-content item-link row1 movie">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/movies/marvel-studios-thor-ragnarok/3XqAT8UV8ojS" target="_blank">
-                                            <img src="img/THO3.png" width="200">
+                                            <img data-src="img/THO3.png" width="200" class="lazy lazy-fade-in">
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -1123,7 +1132,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/series/agents-of-shield/2UT4VQrwpVgi" target="_blank">
-                                            <img src="img/AOS.png" width="300" class="imgAOS"/>
+                                            <img data-src="img/AOS.png" width="300" class="imgAOS lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -1141,7 +1150,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://europixhd.pro/watch-online-tvshow/marvels-runaways-online/watch-marvels-runaways-free-online-streaming-hd" target="_blank">
-                                            <img src="img/RUN.png" width="200"/>
+                                            <img data-src="img/RUN.png" width="200" class="lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -1161,7 +1170,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://europixhd.pro/watch-online-tvshow/marvels-runaways-online/watch-marvels-runaways-free-online-streaming-hd" target="_blank">
-                                            <img src="img/RUN.png" width="200"/>
+                                            <img data-src="img/RUN.png" width="200" class="lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -1179,7 +1188,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.netflix.com/title/80018294" target="_blank">
-                                            <img src="img/HEL.png" width="200"/>
+                                            <img data-src="img/HEL.png" width="200" class="lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -1197,7 +1206,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.netflix.com/title/80018294" target="_blank">
-                                            <img src="img/JJ.png" width="200"/>
+                                            <img data-src="img/JJ.png" width="200" class="lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -1215,7 +1224,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo logo-175">
                                         <a href="https://www.netflix.com/title/80117498" target="_blank">
-                                            <img src="img/PUN.png" width="175"/>
+                                            <img data-src="img/PUN.png" width="175" class="lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -1233,7 +1242,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://europixhd.pro/watch-online-tvshow/marvels-runaways-online/watch-marvels-runaways-free-online-streaming-hd" target="_blank">
-                                            <img src="img/RUN.png" width="200"/>
+                                            <img data-src="img/RUN.png" width="200" class="lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -1251,7 +1260,7 @@
                                 <div class="item-content item-link row1 movie">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/movies/marvel-studios-ant-man-and-the-wasp/5D7wkVHmlCKU" target="_blank">
-                                            <img src="img/AM2.png" width="200">
+                                            <img data-src="img/AM2.png" width="200" class="lazy lazy-fade-in" id="imgAM2">
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -1269,7 +1278,7 @@
                                 <div class="item-content item-link row1-alt show">
                                     <div class="item-media logo">
                                         <a href="https://europixhd.pro/watch-online-tvshow/marvels-runaways-online/watch-marvels-runaways-free-online-streaming-hd" target="_blank">
-                                            <img src="img/RUN.png" width="200"/>
+                                            <img data-src="img/RUN.png" width="200" class="lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -1284,10 +1293,10 @@
                             </li>
 
                             <li>
-                                <div class="item-content item-link row1 movie">
+                                <div class="item-content item-link row1 short">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/movies/marvel-studios-thor-ragnarok/3XqAT8UV8ojS" target="_blank">
-                                            <img src="img/THO3.png" width="200">
+                                            <img data-src="img/THO3.png" width="200" class="lazy lazy-fade-in">
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -1307,7 +1316,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/series/agents-of-shield/2UT4VQrwpVgi" target="_blank">
-                                            <img src="img/AOS.png" width="300" class="imgAOS"/>
+                                            <img data-src="img/AOS.png" width="300" class="imgAOS lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -1325,7 +1334,7 @@
                                 <div class="item-content item-link row1-alt show">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/series/agents-of-shield/2UT4VQrwpVgi" target="_blank">
-                                            <img src="img/AOS.png" width="300" class="imgAOS"/>
+                                            <img data-src="img/AOS.png" width="300" class="imgAOS lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -1340,10 +1349,10 @@
                             </li>
 
                             <li>
-                                <div class="item-content item-link row1 movie">
+                                <div class="item-content item-link row1 movie-av">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/movies/marvel-studios-thor-ragnarok/3XqAT8UV8ojS" target="_blank">
-                                            <img src="img/AV3.png" width="200">
+                                            <img data-src="img/AV3.png" width="200" class="lazy lazy-fade-in">
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -1358,10 +1367,10 @@
                             </li>
 
                             <li>
-                                <div class="item-content item-link row1 movie">
+                                <div class="item-content item-link row1 short">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/movies/marvel-studios-ant-man-and-the-wasp/5D7wkVHmlCKU" target="_blank">
-                                            <img src="img/AM2.png" width="200">
+                                            <img data-src="img/AM2.png" width="200" class="lazy lazy-fade-in">
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -1376,10 +1385,10 @@
                             </li>
 
                             <li>
-                                <div class="item-content item-link row1 movie">
+                                <div class="item-content item-link row1 short">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/movies/marvel-studios-captain-marvel/38xJGlLAQy9a" target="_blank">
-                                            <img src="img/CM.png" width="200">
+                                            <img data-src="img/CM.png" width="200" class="lazy lazy-fade-in">
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -1394,10 +1403,10 @@
                             </li>
 
                             <li>
-                                <div class="item-content item-link row1 movie">
+                                <div class="item-content item-link row1 movie-av">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/movies/marvel-studios-avengers-endgame/aRbVJUb2h2Rf" target="_blank">
-                                            <img src="img/AV4.png" width="200">
+                                            <img data-src="img/AV4.png" width="200" class="lazy lazy-fade-in">
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -1417,15 +1426,16 @@
             </div>
 
 
-            <div class="page-content tab tab-active" id="phase-4">
+            <div class="page-content tab" id="phase-4">
                 <div class="phase-4">
                     <div class="list media-list marvel-list">
                         <ul>
+
                             <li>
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo">
                                         <a href="https://www.disneyplus.com/series/wandavision/4SrN28ZjDLwH" target="_blank">
-                                            <img src="img/WV.png" width="200" class="imgWV"/>
+                                            <img data-src="img/WV.png" width="200" class="imgWV lazy lazy-fade-in"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -1443,7 +1453,7 @@
                                 <div class="item-content item-link row1 show">
                                     <div class="item-media logo logo-175">
                                         <a href="https://www.disneyplus.com/series/the-falcon-and-the-winter-soldier/4gglDBMx8icA" target="_blank">
-                                            <img src="img/FWS.png" width="175"/>
+                                            <img data-src="img/FWS.png" width="175" class="lazy lazy-fade-in" id="imgFWS"/>
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -1461,7 +1471,7 @@
                                 <div class="item-content item-link row1 movie">
                                     <div class="item-media logo">
                                         <a href="https://europixhd.pro/watch-online-movie/spider-man-far-from-home-2019-online-free-hd-with-subtitles-europix" target="_blank">
-                                            <img src="img/SM2.png" width="200">
+                                            <img data-src="img/SM2.png" width="200" class="lazy lazy-fade-in">
                                         </a>
                                     </div>
                                     <div class="item-inner">
@@ -1481,16 +1491,12 @@
             </div>
 
 
-
-
-
-
-
         </div>
+
+        </form>
 
 
 	</section>
-		
 
 
 </section>
